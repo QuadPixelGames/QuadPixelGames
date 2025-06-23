@@ -7,14 +7,17 @@ layout: default
 <div class="page">
   <div class="page__inner-wrap">
 
-    <!-- Sidebar that matches other pages -->
-    <aside class="sidebar__left sticky">
-      {% if page.author_profile or layout.author_profile %}
-        {% include author-profile.html %}
-      {% endif %}
-    </aside>
+    {% if page.sidebar %}
+      <aside class="sidebar__left sticky">
+        {% if page.author_profile or layout.author_profile %}
+          {% include author-profile.html %}
+        {% endif %}
+      </aside>
+    {% endif %}
 
     <div class="page__content">
+      {{ content }}
+
       <h1>👾 Welcome to QuadPixel</h1>
       <p>We make dumb, chaotic, beautifully broken games. You're welcome.</p>
 
