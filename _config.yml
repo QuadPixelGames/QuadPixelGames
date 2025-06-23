@@ -110,3 +110,16 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+author:
+  name: QuadPixel Games
+  bio: We make chaotic little games with ✨ zero chill ✨ and max fun.
+  avatar: /assets/images/avatar.png  # Leave it like this for default avatar
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/QuadPixelGames"
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+      url: "https://youtube.com/@QuadPixelGames"
+

@@ -8,7 +8,9 @@ layout: default
   <div class="page__inner-wrap">
 
     <aside class="sidebar__right sticky">
-      {% include author-profile.html %}
+      {% if page.author_profile or layout.author_profile %}
+        {% include author-profile.html %}
+      {% endif %}
     </aside>
 
     <div class="page__content">
@@ -24,4 +26,3 @@ layout: default
 
   </div>
 </div>
-
