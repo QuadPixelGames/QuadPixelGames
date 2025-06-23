@@ -4,15 +4,24 @@ layout: default
 
 {% include page__hero.html %}
 
-<div class="page__content">
-  {{ content }}
+<div class="page">
+  <div class="page__inner-wrap">
 
-  <h2>👾 Welcome to QuadPixel</h2>
-  <p>We make dumb, chaotic, beautifully broken games.</p>
+    <aside class="sidebar__right sticky">
+      {% include author-profile.html %}
+    </aside>
 
-  <h3>🔥 Projects</h3>
-  <ul>
-    <li><strong>Blaster Balls</strong> – Because pew-pew > pew-pew-pew</li>
-    <li><strong>Flappy Kartik</strong> – sorry kartik!</li>
-  </ul>
+    <div class="page__content">
+      <h2>👾 Welcome to QuadPixel</h2>
+      <p>We make dumb, chaotic, beautifully broken games.</p>
+
+      <h3>🔥 Projects</h3>
+      <ul>
+        <li><strong>Blaster Balls</strong> – Because pew-pew > pew-pew-pew</li>
+        <li><strong>Flappy Kartik</strong> – sorry Kartik!</li>
+      </ul>
+    </div>
+
+  </div>
 </div>
+
