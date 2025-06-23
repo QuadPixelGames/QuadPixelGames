@@ -114,7 +114,7 @@ tag_archive:
 author:
   name: QuadPixel Games
   bio: We make chaotic little games with ✨ zero chill ✨ and max fun.
-  avatar: /assets/images/avatar.png  # Leave it like this for default avatar
+  avatar: /assets/images/bio-photo.png  # Leave it like this for default avatar
   links:
     - label: "GitHub"
       icon: "fab fa-github"
