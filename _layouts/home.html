@@ -7,20 +7,21 @@ layout: default
 <div class="page">
   <div class="page__inner-wrap">
 
-    <aside class="sidebar__right sticky">
-      {% if page.author_profile or layout.author_profile %}
-        {% include author-profile.html %}
-      {% endif %}
-    </aside>
+    <!-- Sidebar stacked on top like a clean legend -->
+    <div class="author-block" style="margin-bottom: 2rem;">
+      {% include author-profile.html %}
+    </div>
 
+    <!-- Main homepage content -->
     <div class="page__content">
       <h2>👾 Welcome to QuadPixel</h2>
-      <p>We make dumb, chaotic, beautifully broken games.</p>
+      <p>We make dumb, chaotic, beautifully broken games. You're welcome.</p>
 
       <h3>🔥 Projects</h3>
       <ul>
         <li><strong>Blaster Balls</strong> – Because pew-pew > pew-pew-pew</li>
-        <li><strong>Flappy Kartik</strong> – sorry Kartik!</li>
+        <li><strong>Smoorpples</strong> – blobs going through portals for no reason</li>
+        <li><strong>Flappy Kartik</strong> – he didn’t ask for this</li>
       </ul>
     </div>
 
