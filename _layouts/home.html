@@ -5,21 +5,26 @@ layout: default
 {% include page__hero.html %}
 
 <div class="page">
-  <div class="page__content">
+  <div class="page__inner-wrap">
 
-    <!-- Author profile (stacked, not sidebar) -->
-    {% include author-profile.html %}
+    <!-- Sidebar that matches other pages -->
+    <aside class="sidebar__left sticky">
+      {% if page.author_profile or layout.author_profile %}
+        {% include author-profile.html %}
+      {% endif %}
+    </aside>
 
-    <!-- Main homepage content -->
-    <h1>👾 Welcome to QuadPixel</h1>
-    <p>We make dumb, chaotic, beautifully broken games.</p>
+    <div class="page__content">
+      <h1>👾 Welcome to QuadPixel</h1>
+      <p>We make dumb, chaotic, beautifully broken games. You're welcome.</p>
 
-    <h2>🔥 Projects</h2>
-    <ul>
-      <li><strong>Blaster Balls</strong> – Because pew-pew > pew-pew-pew</li>
-      <li><strong>Smoorpples</strong> – blobs going through portals for no reason</li>
-      <li><strong>Flappy Kartik</strong> – he didn’t ask for this</li>
-    </ul>
+      <h2>🔥 Projects</h2>
+      <ul>
+        <li><strong>Blaster Balls</strong> – Because pew-pew > pew-pew-pew</li>
+        <li><strong>Smoorpples</strong> – blobs going through portals for no reason</li>
+        <li><strong>Flappy Kartik</strong> – he didn’t ask for this</li>
+      </ul>
+    </div>
 
   </div>
 </div>
