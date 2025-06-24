@@ -13,9 +13,6 @@ We're not here to win GOTY. We’re here to make dumb fun — and maybe break a 
 
 Come play.
 
-## 💸 Support the Goofballs!
-
----
 
 ## 💖 Support QuadPixel
 
@@ -51,15 +48,25 @@ Come play.
 </div>
 
 <script>
-  function setAmount(amount) {
-    document.getElementById('customAmount').value = amount;
-    updateAmount(amount);
-  }
+  document.addEventListener("DOMContentLoaded", function () {
+    const slider = document.getElementById("customAmount");
+    const amountLabel = document.getElementById("amountLabel");
+    const upiLink = document.getElementById("upiLink");
 
-  function updateAmount(value) {
-    document.getElementById('amountLabel').textContent = `₹${value}`;
-    const upi = `upi://pay?pa=aatikshnew@okicici&pn=AATIKSH%20SINHA%20MINOR&cu=INR&am=${value}&tn=Support%20QuadPixel`;
-    document.getElementById('upiLink').href = upi;
-    document.getElementById('upiLink').textContent = `Donate ₹${value}`;
-  }
+    slider.addEventListener("input", function () {
+      updateAmount(slider.value);
+    });
+
+    window.setAmount = function(amount) {
+      slider.value = amount;
+      updateAmount(amount);
+    };
+
+    function updateAmount(value) {
+      amountLabel.textContent = `₹${value}`;
+      const upi = `upi://pay?pa=aatikshnew@okicici&pn=AATIKSH%20SINHA%20MINOR&cu=INR&am=${value}&tn=Support%20QuadPixel`;
+      upiLink.href = upi;
+      upiLink.textContent = `Donate ₹${value}`;
+    }
+  });
 </script>
