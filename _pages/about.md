@@ -1,8 +1,14 @@
 ---
 permalink: /about/
-title: "About"
+title: "About QuadPixel"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+## 🧠 About QuadPixel
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+QuadPixel is a tiny but mighty indie game studio focused on making chaotic, weird, and wildly fun games that don’t take themselves too seriously — and neither do we.
+
+We’re all about ideas that make people go “wait, what?” and then “okay that was actually fun.” Whether it’s a gun that shoots beach balls, faceless blobs jumping through portals, or Kartik flapping through pipes, if it makes us laugh or rage-quit, it probably belongs in a QuadPixel game.
+
+We're not here to win GOTY. We’re here to make dumb fun — and maybe break a few rules while we’re at it.
+
+Come play.
