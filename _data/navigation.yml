@@ -1,4 +1,8 @@
 main:
+  - title: "Home"
+    url: /
+  - title: "Meet the Team"
+    url: /team/
   - title: "Posts"
     url: /posts/
   - title: "Categories"
