@@ -15,47 +15,51 @@ Come play.
 
 ## 💸 Support the Goofballs!
 
-<p>
-    <!-- 💸 Floating Horizontal UPI Panel -->
-<div id="upiDonatePanel" style="position: fixed; top: 80px; right: 0; z-index: 9999;
-background: #f9f9f9; border: 2px solid #00a86b; border-right: none; border-radius: 10px 0 0 10px;
-padding: 12px 16px; display: flex; align-items: center; gap: 12px; box-shadow: -4px 4px 10px rgba(0,0,0,0.1);
-font-family: sans-serif; max-width: 100%; flex-wrap: wrap;">
+---
 
-<strong>💸 Tip Us:</strong>
+## 💖 Support QuadPixel
 
-<div id="quickAmounts" style="display:flex; gap:6px;">
-  <button type="button" onclick="setAmount(10)" style="padding:6px 10px; border:none; border-radius:4px;
-  background:#e0e0e0; font-weight:bold; cursor:pointer;">₹10</button>
-  <button type="button" onclick="setAmount(20)" style="padding:6px 10px; border:none; border-radius:4px;
-  background:#e0e0e0; font-weight:bold; cursor:pointer;">₹20</button>
-  <button type="button" onclick="setAmount(50)" style="padding:6px 10px; border:none; border-radius:4px;
-  background:#e0e0e0; font-weight:bold; cursor:pointer;">₹50</button>
+<div class="notice--info">
+  Help us keep making awesome indie chaos. Choose a quick tip or set a custom amount!
 </div>
 
-<div style="display:flex; align-items:center; gap:6px;">
-  <input type="range" id="customAmount" min="1" max="200" value="30"
-  style="width: 120px;" oninput="updateAmount(this.value)">
-  <span id="amountLabel">₹30</span>
-</div>
+<div class="page__content" style="border: 1px solid var(--border-color); padding: 1rem; border-radius: 0.5rem; background: var(--background-color);">
 
-<a id="upiLink" href="upi://pay?pa=aatikshnew@okicici&pn=AATIKSH%20SINHA%20MINOR&cu=INR&am=30&tn=Support%20QuadPixel"
-style="background:#00a86b;color:white;padding:8px 14px;border-radius:6px;
-font-weight:bold;text-decoration:none;">Donate ₹30</a>
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center;">
+
+  <!-- Quick Buttons -->
+  <div style="display: flex; gap: 0.5rem;">
+    <button type="button" onclick="setAmount(10)" class="btn btn--primary">₹10</button>
+    <button type="button" onclick="setAmount(20)" class="btn btn--primary">₹20</button>
+    <button type="button" onclick="setAmount(50)" class="btn btn--primary">₹50</button>
+  </div>
+
+  <!-- Slider -->
+  <div style="display: flex; align-items: center; gap: 0.5rem;">
+    <input type="range" id="customAmount" min="1" max="200" value="30" style="width: 150px;">
+    <span id="amountLabel" style="font-weight: bold;">₹30</span>
+  </div>
+
+  <!-- Donate Button -->
+  <a id="upiLink"
+     href="upi://pay?pa=aatikshnew@okicici&pn=AATIKSH%20SINHA%20MINOR&cu=INR&am=30&tn=Support%20QuadPixel"
+     class="btn btn--success">
+    Donate ₹30
+  </a>
+
+</div>
 </div>
 
 <script>
-function setAmount(amount) {
-  document.getElementById('customAmount').value = amount;
-  updateAmount(amount);
-}
+  function setAmount(amount) {
+    document.getElementById('customAmount').value = amount;
+    updateAmount(amount);
+  }
 
-function updateAmount(value) {
-  document.getElementById('amountLabel').textContent = `₹${value}`;
-  const upi = `upi://pay?pa=aatikshnew@okicici&pn=AATIKSH%20SINHA%20MINOR&cu=INR&am=${value}&tn=Support%20QuadPixel`;
-  document.getElementById('upiLink').href = upi;
-  document.getElementById('upiLink').textContent = `Donate ₹${value}`;
-}
+  function updateAmount(value) {
+    document.getElementById('amountLabel').textContent = `₹${value}`;
+    const upi = `upi://pay?pa=aatikshnew@okicici&pn=AATIKSH%20SINHA%20MINOR&cu=INR&am=${value}&tn=Support%20QuadPixel`;
+    document.getElementById('upiLink').href = upi;
+    document.getElementById('upiLink').textContent = `Donate ₹${value}`;
+  }
 </script>
-
-</p>
