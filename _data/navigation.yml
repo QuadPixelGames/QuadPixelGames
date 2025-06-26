@@ -3,11 +3,17 @@ main:
     url: /
   - title: "Meet the Team"
     url: /team/
+  - title: "Flappy Kartik!"
+    url: /Flappy%20Kartik/
   - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+    children:
+      - title: "All Posts"
+        url: /posts/
+      - title: "Categories"
+        url: /categories/
+      - title: "Tags"
+        url: /tags/
   - title: "About"
     url: /about/
+
+  

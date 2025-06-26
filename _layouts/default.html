@@ -32,5 +32,10 @@
     </div>
 
     {% include scripts.html %}
+
+{% if site.header.search.enabled %}
+  {% include search/search_form.html %}
+{% endif %}
+
   </body>
 </html>
