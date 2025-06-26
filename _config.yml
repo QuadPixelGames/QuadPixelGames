@@ -128,3 +128,9 @@ author:
       icon: "fab fa-youtube"
       url: "https://youtube.com/@QuadPixelGames"
 
+
+header:
+  search:
+    enabled: true
+
+
