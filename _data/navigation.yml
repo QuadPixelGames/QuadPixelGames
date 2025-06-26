@@ -4,7 +4,7 @@ main:
   - title: "Meet the Team"
     url: /team/
   - title: "Flappy Kartik!"
-    url: /Flappy%20Kartik/
+    url: /flappykartikgame/
   - title: "Posts"
     children:
       - title: "All Posts"
@@ -15,5 +15,11 @@ main:
         url: /tags/
   - title: "About"
     url: /about/
+  - title: "Test Menu"
+    children:
+      - title: "Link One"
+        url: /test1/
+      - title: "Link Two"
+        url: /test2/
 
   
