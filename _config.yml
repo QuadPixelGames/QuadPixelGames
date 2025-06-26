@@ -19,7 +19,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   Games for all.
 github_username: QuadPixelGames
 minimal_mistakes_skin: dark
-search: true
+search:
+  enabled: true
+  fulltext: true
+  excerpt_length: 50
+  max_indexed_count: 500  # 👈 customize this to fit more posts
+
 
 # Build settings
 markdown: kramdown
