@@ -5,21 +5,13 @@ main:
     url: /team/
   - title: "Flappy Kartik!"
     url: /flappykartikgame/
-  - title: "Posts"
-    children:
-      - title: "All Posts"
-        url: /posts/
-      - title: "Categories"
-        url: /categories/
-      - title: "Tags"
-        url: /tags/
   - title: "About"
     url: /about/
-  - title: "Test Menu"
-    children:
-      - title: "Link One"
-        url: /test1/
-      - title: "Link Two"
-        url: /test2/
+  - title: "All Posts"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
 
   
