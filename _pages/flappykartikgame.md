@@ -33,7 +33,7 @@ classes: wide
   <input type="number" id="score" name="score" min="1" placeholder="69" required style="width: 100%;"><br><br>
 
   <label for="feedback">💬 Feedback:</label><br>
-  <textarea id="feedback" name="feedback" rows="4" placeholder="blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah "style="width: 100%;"></textarea><br><br>
+  <textarea id="feedback" name="feedback" rows="4" style="width: 100%;"></textarea><br><br>
 
   <button type="submit" style="padding: 10px 20px; background: #00a86b; color: white; font-weight: bold; border: none; border-radius: 8px;">Submit</button>
 </form>
