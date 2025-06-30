@@ -1,15 +1,16 @@
 ---
-layout: none
+layout: default
+title: "🎮 Flappy Kartik"
 permalink: /flappykartikgame/
 ---
 
-<p>
+<div style="display: flex; justify-content: center; margin-top: 2rem; margin-bottom: 2rem;">
   <iframe
     src="{{ '/assets/games/flappykartik/game.html' | relative_url }}"
     width="960"
-    height="600"
+    height="540"
     frameborder="0"
     allowfullscreen
-    style="border: 2px solid #00a86b; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    style="border: 2px solid #00a86b; border-radius: 12px; box-shadow: 0 0 20px rgba(0,0,0,0.3);">
   </iframe>
-</p>
+</div>
