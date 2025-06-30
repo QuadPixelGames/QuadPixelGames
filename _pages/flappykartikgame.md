@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: single
 title: "🎮 Flappy Kartik"
 permalink: /flappykartikgame/
 author: aatiksh
 author_profile: true
+classes: wide
 ---
 
 # 🎮 Flappy Kartik, the ultimate timepass game!
