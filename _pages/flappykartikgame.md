@@ -23,7 +23,7 @@ classes: wide
 
 ## 📝 Let's see how much do you score?
 
-<form action="https://formsubmit.co/aatikshsinha@gmail.com" method="POST" style="max-width: 500px; margin: auto;">
+<form action="https://formsubmit.co/086a92d7096d4fe7f851dba52d634a94" method="POST" style="max-width: 500px; margin: auto;">
   <input type="hidden" name="_captcha" value="false">
 
   <label for="name">🧑 Your Nickname:</label><br>
