@@ -4,7 +4,7 @@ title: "🎮 Flappy Kartik"
 permalink: /flappykartikgame/
 ---
 
-<div style="display: flex; justify-content: center; margin-top: 2rem; margin-bottom: 2rem;">
+<div style="width: 100%; max-width: 1280px; margin: auto;">
   <iframe
     src="{{ '/assets/games/flappykartik/game.html' | relative_url }}"
     width="960"
