@@ -18,3 +18,5 @@ classes: wide
     style="border: 1px solid #00a86b; border-radius: 12px; box-shadow: 0 0 20px rgba(0,0,0,0.3);">
   </iframe>
 </section>
+
+the input system is bugged i'll fix it tomorrow or something - Aatiksh, 19-10-25
