@@ -19,4 +19,4 @@ classes: wide
   </iframe>
 </section>
 
-the input system is bugged i'll fix it tomorrow or something - Aatiksh, 19-10-25
+A simple yet fun video game! Kill the killer robots as a pill (game developer reference) and fight back for what they did to u! note, if it works weird it's cuz it's on web and it might lag a lil too ig..
