@@ -19,4 +19,8 @@ classes: wide
   </iframe>
 </section>
 
-A simple yet fun video game! Kill the killer robots as a pill (game developer reference) and fight back for what they did to u! note, if it works weird it's cuz it's on web and it might lag a lil too ig..
+update: i only now found out there is lots of problems incase we use webgl like the thing has a problem (a % 0) somewhere in the code that i cannot find at all so here is a download link 👇
+
+<p>
+  <a href="/assets/games/bbgamedownload/Blaster Balls! (INTEL - x86 - 32 bit).zip">Blaster Balls! (Intel - 32 bit) </a>
+</p>
