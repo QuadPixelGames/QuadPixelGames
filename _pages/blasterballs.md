@@ -24,3 +24,9 @@ update: i only now found out there is lots of problems incase we use webgl like 
 <p>
   <a href="https://QuadPixelGames.github.io/QuadPixelGames/assets/games/bbgamedownload/Blaster%20Balls!%20(INTEL%20-%20x86%20-%2032%20bit).zip">Blaster Balls! (Intel - 32 bit) </a>
 </p>
+
+if your browser thinks the game is a virus, use this mirrored link..
+
+<p>
+  <a href="https://1drv.ms/u/c/dc32db6f62ec579d/EZ-P9Be8U9FDqAQ5sTs91WgBGXQPLJZprY0-59p4xc_4hA?e=e5nwed">Blaster Balls! (Intel - 32 bit) [mirrored - onedrive] </a>
+</p>
